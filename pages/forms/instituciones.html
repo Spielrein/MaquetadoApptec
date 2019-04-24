@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Instituci&oacute;n educativa</title>
+  <link rel="stylesheet" href="../../vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.addons.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../vendors/iconfonts/font-awesome/css/font-awesome.css">
+</head>
+
+<body>
+
+  <!--Menú de la parte superior-->
+ <!--Menú de la parte superior-->
+ <div class="container-scroller">
+    <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div>
+            <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
+                <a class="navbar-brand brand-logo" href="index.html">
+                  <img src="../../images/logo.svg" alt="logo" />
+                </a>    
+            </div>
+        </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center">
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item dropdown d-none d-xl-inline-block">
+            <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+              <span class="profile-text">Ernesto</span>
+              <img class="img-xs rounded-circle" src="../../images/faces/face1.ico" alt="Profile image">
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+                <a class="dropdown-item mt-2" href="perfil.html" >
+                  Ver perfil
+                </a>
+                <a class="dropdown-item" href="../../login.html">
+                  Cerrar sesi&oacute;n
+                </a>
+            </div>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="mdi mdi-menu"></span>
+        </button>
+      </div>
+    </nav>
+   
+    <!--Menú lateral-->
+    <div class="container-fluid page-body-wrapper">
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item nav-profile">
+            <div class="nav-link">
+              <div class="user-wrapper">
+                <div class="profile-image">
+                  <img src="../../images/faces/face1.ico" alt="profile image">
+                </div>
+                <div class="text-wrapper">
+                  <center>
+                    <p class="profile-name">Ernesto Silverio Flores</p>
+                    <div>
+                      <small class="designation text-muted">Administrador</small>
+                      <!--<span class="status-indicator online"></span>--> 
+                    </div>
+                  </center>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!--menu de administración-->
+          <li class="nav-item">
+            <a class="nav-link" href="inicio.html">
+              <i class="menu-icon fa fa-home"></i>
+              <span class="menu-title">Inicio</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic9" aria-expanded="false" aria-controls="ui-basic9">
+              <i class="menu-icon fa fa-institution"></i>
+              <span class="menu-title">Insituci&oacute;n</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic9">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="instituciones.html">Registrar Insituci&oacute;n</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="institucionesMostrar.html">Mostrar Insituci&oacute;n</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#ui-basic88" aria-expanded="false" aria-controls="ui-basic88">
+                <i class="menu-icon fa fa-th-large"></i>
+                <span class="menu-title">Grados</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="ui-basic88">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="niveles.html">Registrar grado</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nivelesMostrar.html">Mostra grados</a>
+                  </li>
+                </ul>
+              </div>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#ui-basic7" aria-expanded="false" aria-controls="ui-basic7">
+                <i class="menu-icon fa fa-qrcode"></i>
+                <span class="menu-title">Grupos</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="ui-basic7">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="grupos.html">Registrar grupo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gruposMostar.html">Mostrar grupos</a>
+                  </li>
+                </ul>
+              </div>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#ui-basic1" aria-expanded="false" aria-controls="ui-basic1">
+                <i class="menu-icon fa fa-archive"></i>
+                <span class="menu-title">Aulas</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="ui-basic1">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="aulas.html">Registrar aula</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="aulasMostrar.html">Mostrar aulas</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+          <li class="nav-item">
+            <a class="nav-link" id="collapseTwo"  data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <i class="menu-icon fa fa-briefcase"></i>
+              <span class="menu-title">Carreras</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="carreras.html">Registrar carrera</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="carrerasMostrar.html">Mostrar carreras</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" id="collapseTwo"  data-toggle="collapse" href="#ui-basic11" aria-expanded="false" aria-controls="ui-basic11">
+                <i class="menu-icon fa fa-folder-open"></i>
+                <span class="menu-title">Especialidades</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="ui-basic11">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="especialidades.html">Registrar especialidad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="especialidadesMostrar.html">Mostrar especialidades</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic3" aria-expanded="false" aria-controls="ui-basic3">
+              <i class="menu-icon fa fa-book"></i>
+              <span class="menu-title">Materias</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic3">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="materias.html">Registrar materia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="materiasMostrar.html">Mostrar materias</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#ui-basic2" aria-expanded="false" aria-controls="ui-basic2">
+                <i class="menu-icon fa fa-group"></i>
+                <span class="menu-title">Profesores</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="ui-basic2">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="empleados.html">Registrar profesor</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="empleadosMostrar.html">Mostrar profesores</a>
+                  </li>
+                </ul>
+              </div>
+           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#auth2" aria-expanded="false" aria-controls="auth2">
+              <i class="menu-icon fa fa-user-circle"></i>
+              <span class="menu-title">Alumnos</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="auth2">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="alumnos.html">Registrar alumno</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="alumnosMostrar.html">Mostrar alumnos</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#ui-basic99" aria-expanded="false" aria-controls="ui-basic99">
+                <i class="menu-icon fa fa-pencil-square-o"></i>
+                <span class="menu-title">Asiganci&oacute;n de Materias</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="ui-basic99">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="ClasesSemestresMaterias.html">Registrar Materia y grado</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="ClasesSemestresMateriasMostrar.html">Mostra Materias</a>
+                  </li>
+                </ul>
+              </div>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#ui-basic4" aria-expanded="false" aria-controls="ui-basic4">
+                  <i class="menu-icon mdi mdi-bell"></i>
+                <span class="menu-title">Clases</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="ui-basic4">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="clases2.html">Registrar clase</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="clasesMostrar.html">Mostrar clases</a>
+                  </li>
+                </ul>
+              </div>
+          </li>
+    
+        </ul>
+      </nav>
+
+  
+      <!--formularios de registro-->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-md-12 d-flex align-items-stretch grid-margin">
+              <div class="row flex-grow">
+                <div class="col-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Instituci&oacute;n educativa</h4>
+                      <div class="card">
+                        <div class="card-body">
+                            <form class="forms-sample" action="instituciones.html">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Nombre instituci&oacute;n</label>
+                                        <input type="text" class="form-control" id="nombreInstitucion" placeholder="Nombre" value="" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Direcci&oacute;n</label>
+                                        <input type="text" class="form-control" id="direccionInstitucion" placeholder="Dirección" value="" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Tel&eacute;fono</label>
+                                        <input type="text" class="form-control" id="telefonoInstitucion" placeholder="Teléfono" value="" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Nivel educativo</label>
+                                        <select class="form-control" id="nivelEdInstitucion" required>
+                                            <option selected>Seleccionar</option>
+                                            <option></option>
+                                            <option></option>
+                                            <option></option>
+                                            <option></option>
+                                          </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Logo</label>
+                                      <div class="custom-file">
+                                          <input type="file" class="form-control" name="logo"  required/>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Director</label>
+                                        <input type="text" class="form-control" id="directorInstitucion" placeholder="Nombre completo del director" value="" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-2"></div>
+                                <div class="col-md-2"></div>
+                                <div class="col-md-2"></div>
+                                <div class="col-md-2">
+                                </div>
+                                <div class="col-md-2">
+                                  <br><br>
+                                  <button type="submit" class="btn btn-success mr-2">Guardar</button>
+                                </div>
+                              </div>
+                            </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!--Footer del formularios-->  
+          <footer class="footer">
+            <div class="container-fluid clearfix">
+              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2018
+                <a href="http://www.bootstrapdash.com/" target="_blank">Bootstrapdash</a>. All rights reserved.</span>
+            </div>
+          </footer>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--Scripts js del formulario-->
+  <script src="../../vendors/js/vendor.bundle.base.js"></script>
+  <script src="../../vendors/js/vendor.bundle.addons.js"></script>
+  <script src="../../js/off-canvas.js"></script>
+  <script src="../../js/misc.js"></script>
+  <script src="../../js/dashboard.js"></script>
+
+
+</body>
+</html>

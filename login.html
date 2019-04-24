@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Login</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="vendors/css/vendor.bundle.addons.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="images/favicon.png" />
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-show-password/1.0.3/bootstrap-show-password.min.js"></script>
+</head>
+
+<body>
+  <div class="container-scroller">
+    <div class="container-fluid page-body-wrapper full-page-wrapper auth-page">
+      <div class="content-wrapper d-flex align-items-center auth auth-bg-1 theme-one">
+          <div class="row w-100">
+            <div class="col-lg-4 mx-auto">
+                <div class="auto-form">
+                  <form action="pages/forms/inicio.html">
+                    <div class="form-group">
+                      <label>Username</label>
+                      <input type="text" class="form-control" placeholder="Usuario" required>
+                    </div>
+                    <div class="form-group">
+                      <label>Password</label>
+                      <input type="password" class="form-control" id="password" name="password"  data-toggle="password" placeholder="Contraseña" required>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <button class="btn btn-primary submit-btn btn-block">Entrar</button>
+                    </div>
+                    <br>
+                    <div class="text-block text-center my-3">
+                        <span class="text-small font-weight-semibold">¿A&uacute;n no eres miembro?</span>
+                        <a href="pages/forms/registro_admin.html" class="text-black text-small">Crea una cuenta aqui</a>
+                      </div>
+                  </form>
+                </div>
+                <br>
+                <p class="footer-text text-center">copyright © 2018 Bootstrapdash. All rights reserved.</p>
+            </div>
+          </div>
+      </div>
+      <!-- content-wrapper ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- plugins:js -->
+  <script src="../../vendors/js/vendor.bundle.base.js"></script>
+  <script src="../../vendors/js/vendor.bundle.addons.js"></script>
+  <!-- endinject -->
+  <!-- inject:js -->
+  <script src="../../js/off-canvas.js"></script>
+  <script src="../../js/misc.js"></script>
+  <!-- endinject -->
+  <script type="text/javascript">
+    $("#password").password('toggle');
+  </script>
+</body>
+
+</html>
